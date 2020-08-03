@@ -21,7 +21,7 @@ nav {
 
 nav img {
     max-height: auto;
-    max-width: 80%;
+    width: 80%;
     margin-top: 20%;
     border-radius: 10px;
 }
