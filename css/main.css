@@ -86,9 +86,6 @@ footer {
     height: 60vh;
     width: 35vw;
     margin: 0 2.5vw;
-}
-
-#kontakt div {
     text-align: justify;
 }
 
@@ -123,8 +120,8 @@ footer {
 
 #kontakt a:hover {
     color: #747474;
-    transition-duration: 1s;
     font-size: 30px;
+    transition-duration: 1s;
 }
 
 #kontakt img {
