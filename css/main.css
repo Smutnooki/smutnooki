@@ -7,11 +7,7 @@ body {
     background-color: black;
     color: white;
     font-family: Futura;
-}
-
-article {
-    height: 100vh;
-    width: auto;
+    display: flex;
 }
 
 /* Panel boczny */
@@ -71,6 +67,43 @@ footer {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+/* O mnie */
+
+#about {
+    width: 80vw;
+}
+
+#about .me {
+    height: 40vh;
+    margin: 2.5vh 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#about .me .img {
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    float: left;
+    background: url(../gfx/computer-768696_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about .me .about {
+    height: 100%;
+    width: 60%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    float: left;
+}
+
+#about .skills {
+    height: 50vh;
+    box-sizing: border-box;
+    border: 1px solid red;
 }
 
 /* Kontakt */
