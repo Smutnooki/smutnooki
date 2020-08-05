@@ -135,17 +135,48 @@ footer {
     width: 20%;
     margin-top: auto;
     margin-bottom: auto;
-    box-sizing: border-box;
-    border: 1px solid red;
+    border-radius: 10px;
     float: left;
+    background-color: #272727;
 }
 
 #about .all_skills div .progress {
     height: 75%;
     width: 80%;
     box-sizing: border-box;
-    border: 1px solid blue;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #272727;
     float: left;
+}
+
+#about .progress .bar {
+    height: 75%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #A64AC9;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#about .bar:after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: linear-gradient(
+        -45deg,
+        rgba(255,255,255,.2) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255,255,255, .2) 50%,
+        rgba(255,255,255, .2) 75%,
+        transparent 75%,
+        transparent
+    );
+    z-index: 1;
+    background-size: 50px 50px;
+    animation: move 2s linear infinite;
+    overflow: hidden;
 }
 
 #about .skills p {
