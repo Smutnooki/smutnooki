@@ -69,6 +69,42 @@ footer {
     left: 0;
 }
 
+/* Home */
+
+#home {
+    width: 80%;
+    text-align: center;
+    height: 100vh;
+}
+
+#home .top {
+    line-height: 15vh;
+    font-size: 50px;
+    color: #A64AC9;
+    height: 15vh;
+}
+
+#home .mid {
+    height: 60vh;
+    font-size: 25px;
+    color: #A64AC9;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding-top: 2.5%;
+}
+
+#home .bot {
+    line-height: 15vh;
+    font-size: 50px;
+    color: #A64AC9;
+    height: 15vh;
+}
+
+#home hr {
+    width: 90%;
+    border: 1px solid #A64AC9;
+}
+
 /* O mnie */
 
 #about {
@@ -98,9 +134,10 @@ footer {
     float: left;
 }
 
-#about .me .about p {
+#about p {
     font-size: 30px;
     padding-bottom: 10px;
+    margin-left: 12.5%;
 }
 
 #about .me .about span {
@@ -159,34 +196,81 @@ footer {
     border-bottom-right-radius: 10px;
 }
 
-#about .bar:after {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-    background-color: linear-gradient(
-        -45deg,
-        rgba(255,255,255,.2) 25%,
-        transparent 25%,
-        transparent 50%,
-        rgba(255,255,255, .2) 50%,
-        rgba(255,255,255, .2) 75%,
-        transparent 75%,
-        transparent
-    );
-    z-index: 1;
-    background-size: 50px 50px;
-    animation: move 2s linear infinite;
-    overflow: hidden;
-}
-
-#about .skills p {
-    font-size: 35px;
-    margin-left: 12.5%;
-}
-
 #about hr {
     width: 90%;
     border: 1px solid #A64AC9;
+}
+
+/* Portfolio */
+
+#projects {
+    width: 80vw;
+    height: 100vh;
+    text-align: center;
+}
+
+#projects p {
+    margin: 2.5% 0;
+    font-size: 35px;
+}
+
+#projects hr {
+    width: 90%;
+    border: 1px solid #A64AC9;
+    margin-bottom: 2.5%;
+}
+
+#projects .all {
+    height: 75vh;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+#projects .all div {
+    width: 25%;
+    margin: 2.5% 2.5%;
+    height: 45%;
+    border-radius: 10px;
+    border: 1px solid #A64AC9;
+}
+
+#projects .all div .content {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: 1s;
+    font-size: 15px;
+    background-color: rgba(000,000,000,0.75);
+}
+
+#projects .all div:hover .content {
+    visibility: visible;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+#projects .title {
+    display: block;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#projects a {
+    text-decoration: none;
+    color: white;
+    transition-duration: 1s;
+}
+
+#projects a:hover {
+    color: #747474;
+    transition-duration: 1s;
 }
 
 /* Kontakt */
