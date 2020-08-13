@@ -78,9 +78,9 @@ footer {
 }
 
 #home .top {
-    line-height: 15vh;
+    line-height: 17.5vh;
     font-size: 50px;
-    color: #A64AC9;
+    color: #ffffff;
     height: 15vh;
 }
 
@@ -88,15 +88,13 @@ footer {
     height: 60vh;
     font-size: 25px;
     color: #A64AC9;
-    box-sizing: border-box;
-    border: 1px solid red;
     padding-top: 2.5%;
 }
 
 #home .bot {
-    line-height: 15vh;
-    font-size: 50px;
-    color: #A64AC9;
+    line-height: 5vh;
+    font-size: 25px;
+    color: #747474;
     height: 15vh;
 }
 
