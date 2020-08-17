@@ -1,0 +1,412 @@
+@font-face {
+    font-family: Futura;
+    src: url(../font/Futura.ttf);
+}
+
+@font-face {
+    font-family: Futura-Italic;
+    src: url(../font/Futura\ Italic.ttf);
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Futura;
+    display: flex;
+}
+
+/* Panel boczny */
+
+nav {
+    height: 100vh;
+    width: 20vw;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+nav img {
+    max-height: auto;
+    width: 80%;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+
+nav .menu {
+    height: 50vh;
+    margin-bottom: 25%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    height: 20%;
+    width: 80%;
+    background-color: #272727;
+    border-radius: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #747474;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 1s;
+}
+
+.menu a:hover {
+    color: #000000;
+    transition-duration: 1s;
+}
+
+footer {
+    width: 100%;
+    margin-bottom: 15%;
+    font-size: 15px;
+    color: #A64AC9;
+    cursor: default;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Home */
+
+#home {
+    width: 80%;
+    text-align: center;
+    height: 100vh;
+}
+
+#home .top {
+    line-height: 20vh;
+    font-size: 30px;
+    color: #ffffff;
+    height: 15vh;
+}
+
+#home .top span {
+    font-size: 50px;
+    margin-right: 50px;
+}
+
+#home .mid {
+    height: 60vh;
+    font-size: 25px;
+    color: #A64AC9;
+    padding-top: 2.5%;
+    background-image: url(../gfx/home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home .bot {
+    line-height: 5vh;
+    font-size: 25px;
+    color: #747474;
+    height: 15vh;
+    font-family: Futura-Italic;
+}
+
+#home .bot .author {
+    font-family: Futura;
+}
+
+#home hr {
+    width: 90%;
+    border: 1px solid #A64AC9;
+}
+
+/* O mnie */
+
+#about {
+    width: 80vw;
+}
+
+#about .me {
+    height: 40vh;
+    margin: 2.5vh 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#about .me .img {
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    float: left;
+    background: url(../gfx/computer-768696_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about .me .about {
+    height: 100%;
+    width: 60%;
+    float: left;
+}
+
+#about p {
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin-left: 12.5%;
+}
+
+#about .me .about span {
+    font-size: 20px;
+}
+
+#about .skills {
+    height: 50vh;
+    width: 75vw;
+    margin-top: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about .all_skills {
+    margin-top: 1.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#about .all_skills div {
+    width: 30%;
+    height: 60px;
+    margin-top: 2.5%;
+    display: flex;
+    align-items: baseline;
+}
+
+#about .all_skills div .logo {
+    width: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+    float: left;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: 1px solid #272727;
+    border-radius: 100px;
+}
+
+#about .all_skills div .meter {
+    height: 75%;
+    width: 80%;
+    float: left;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: 0.5px solid #747474;
+    border-radius: 50px;
+}
+
+#about .meter div {
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #A64AC9;
+    border-radius: 20px;
+}
+
+#about hr {
+    width: 90%;
+    border: 1px solid #A64AC9;
+}
+
+/* Portfolio */
+
+#projects {
+    width: 80vw;
+    height: 100vh;
+    text-align: center;
+}
+
+#projects p {
+    margin: 2.5% 0;
+    font-size: 35px;
+}
+
+#projects hr {
+    width: 90%;
+    border: 1px solid #A64AC9;
+    margin-bottom: 2.5%;
+}
+
+#projects .all {
+    height: 75vh;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+#projects .all div {
+    width: 25%;
+    margin: 2.5% 2.5%;
+    height: 45%;
+    border-radius: 10px;
+    border: 1px solid #A64AC9;
+}
+
+#projects .all div .content {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: 1s;
+    font-size: 15px;
+    background-color: rgba(000,000,000,0.75);
+}
+
+#projects .all div:hover .content {
+    visibility: visible;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+#projects .title {
+    display: block;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#projects a {
+    text-decoration: none;
+    color: white;
+    transition-duration: 1s;
+}
+
+#projects a:hover {
+    color: #747474;
+    transition-duration: 1s;
+}
+
+/* Kontakt */
+
+#kontakt section {
+    height: 80vh;
+    padding-top: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+#kontakt section div {
+    height: 60vh;
+    width: 35vw;
+    margin: 0 2.5vw;
+    text-align: justify;
+}
+
+#kontakt span {
+    font-size: 35px;
+}
+
+#kontakt p {
+    height: 50px;
+    margin-top: 25px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#kontakt .mail {
+    font-size: 25px;
+    transition-duration: 1s;
+}
+
+#kontakt .mail:hover {
+    color: #747474;
+    font-size: 30px;
+    transition-duration: 1s;
+}
+
+#kontakt a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+#kontakt a:hover {
+    color: #747474;
+    font-size: 30px;
+    transition-duration: 1s;
+}
+
+#kontakt img {
+    max-height: 50px;
+    max-width: auto;
+    margin-right: 25px;
+    transition-duration: 1s;
+}
+
+#kontakt img:hover {
+    transform: scale(1.25);
+    transition-duration: 1s;
+}
+
+#kontakt hr {
+    width: 80%;
+    border: 1px solid #A64AC9;
+    float: left;
+}
+
+input[type="text"], input[type="email"] {
+    height: 25px;
+    width: 50%;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    height: 35px;
+    width: 25%;
+    background-color: #272727;
+    color: #747474;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    transition-duration: 1s;
+}
+
+input[type="submit"]:hover {
+    color: #000000;
+    transition-duration: 1s;
+}
+
+textarea {
+    width: 80%;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: #747474;
+}
+
+input[type="text"], input[type="email"], textarea {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #272727;
+    outline: none;
+    transition-duration: 1s;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    color: white;
+    border: 1px solid #A64AC9;
+    transition-duration: 1s;
+}
