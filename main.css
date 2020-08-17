@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    font-family: Futura;
+}
+
+@font-face {
+    font-family: Futura;
+    src: url(home/font/Futura.ttf);
+}
+
+nav, section {
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    width: 30vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    text-align: center;
+    font-size: 25px;
+}
+
+nav a {
+    transition-duration: 1s;
+    display: block;
+    width: 75%;
+    height: 10%;
+    border-radius: 20px;
+    background-color: #272727;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 2.65;
+}
+
+nav a:hover {
+    transition-duration: 1s;
+    background-color: #747474;
+    color: #000000;
+}
+
+section {
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around; 
+}
+
+header {
+    height: 15vh;
+    width: 100%;
+    font-size: 75px;
+    line-height: 15vh;
+    text-align: center;
+    border: 1px solid #272727;
+    border-radius: 20px;
+}
+
+article {
+    height: 60vh;
+    width: 100%;
+    padding: 5%;   
+    font-size: 30px;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    border: 1px solid #272727;
+    border-radius: 20px;
+}
+
+article :first-child {
+    font-size: 40px;
+}
+
+article a {
+    transition-duration: 1s;
+    text-decoration: none;
+    color: white;
+}
+
+article a:hover {
+    transition-duration: 1s;
+    transform: scale(1.5);
+    color: #747474;
+}
+
+footer {
+    height: 10vh;
+    width: 100%;
+    font-size: 20px;
+    line-height: 10vh;
+    text-align: center;
+    color: #A64AC9;
+    border: 1px solid #272727;
+    border-radius: 20px;
+}
+
+.home:hover {
+    background-color: #A64AC9;
+}
