@@ -166,8 +166,198 @@
         font-size: 5vw;
     }
 
+    #kontakt .mail:hover {
+        font-size: 25px !important;
+    }
+
+    #kontakt img:hover {
+        transform: scale(1);
+    }
+
 }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
+
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav {
+        display: flex;
+        width: 100vw;
+        height: 10vh;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+    nav img {
+        order: 1;
+        max-width: 17.5%;
+        max-height: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 2.5%;
+    }
+
+    nav .menu {
+        margin: auto 0;
+        order: 2;
+        height: 10vh;
+        width: 80%;
+        position: static;
+    }
+
+    .menu a {
+        margin: auto 2.5%;
+        font-size: 4.5vw;
+        width: 20%;
+        height: 75%;
+    }
+
+    footer {
+        display: none;
+    }
+
+    /* Home */
+
+    #home {
+        width: 90vw;
+        height: 80vh;
+        margin: 0 auto;
+    }
+
+    #home .top {
+        height: 10vh;
+        line-height: 10vh;
+        font-size: 4vw;
+    }
+
+    #home .top span {
+        font-size: 7.5vw;
+        margin-right: 10px;
+    }
+
+    #home .mid {
+        height: 60vh;
+    }
+
+    #home .bot {
+        height: 10vh;
+        line-height: 3vh;
+        font-size: 4.25vw;
+    }
+
+    /* About */
+
+    #about {
+        width: 90vw;
+        margin: 0 auto;
+        height: 180vh;
+    }
+
+    #about .me {
+        height: 80vh;
+        margin: 4.5vh 0;
+        flex-wrap: wrap;
+    }
+
+    #about .me .img {
+        height: 40%;
+        width: 100%;
+    }
+
+    #about .me .about {
+        height: 50%;
+        width: 100%;
+    }
+
+    #about p {
+        font-size: 10vw;
+    }
+
+    #about .title {
+        font-size: 10vw;
+    }
+
+    #about .me .about span {
+        font-size: 5vw;
+    }
+
+    #about .skills {
+        margin-top: 0;
+    }
+
+    #about .all_skills div {
+        width: 80%;
+        margin-top: 25px;
+    }
+
+    #about .all_skills div #logo {
+        padding-left: 2.5vw;
+    }
+
+    #about .all_skills div .meter {
+        margin-left: 25px;
+    }
+
+    #about .meter div {
+        margin-bottom: 25px;
+    }
+
+    #projects .title, #projects a, #projects .made, #projects .time {
+        padding: 10% 0;
+    }
+
+    /* Portfolio */
+
+    #projects {
+        width: 100vw;
+        margin: auto 0;
+    }
+
+    #projects p {
+        font-size: 10vw;
+    }
+
+    #projects .all div {
+        width: 40%;
+        margin: 25px auto;
+    }
+
+    /* Kontakt */
+
+    #kontakt {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    #kontakt section {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 5% 0;
+    }
+
+    #kontakt section div {
+        width: 75%;
+        height: auto;
+        margin: 25px 0;
+    }
+
+    #kontakt .form {
+        order: 2;
+    }
+
+    #kontakt .mail {
+        font-size: 5vw;
+    }
+
+    #kontakt .mail:hover {
+        font-size: 25px !important;
+    }
+
+    #kontakt img:hover {
+        transform: scale(1);
+    }
 
 }
