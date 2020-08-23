@@ -1,0 +1,75 @@
+@media only screen and (max-width: 480px) {
+
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav {
+        display: flex;
+        width: 100vw;
+        height: 10vh;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+    nav img {
+        order: 1;
+        max-width: 17.5%;
+        max-height: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 2.5%;
+    }
+
+    nav .menu {
+        margin: auto 0;
+        order: 2;
+        height: 10vh;
+        width: 80%;
+        position: static;
+    }
+
+    .menu a {
+        margin: auto 2.5%;
+        font-size: 4.5vw;
+        width: 20%;
+        height: 75%;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #home {
+        width: 90vw;
+        height: 80vh;
+        margin: 0 auto;
+    }
+
+    #home .top {
+        height: 10vh;
+        line-height: 10vh;
+        font-size: 4vw;
+    }
+
+    #home .top span {
+        font-size: 7.5vw;
+        margin-right: 10px;
+    }
+
+    #home .mid {
+        height: 60vh;
+    }
+
+    #home .bot {
+        height: 10vh;
+        line-height: 3vh;
+        font-size: 4.25vw;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+}

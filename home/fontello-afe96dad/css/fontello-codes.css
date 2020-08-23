@@ -1,0 +1,6 @@
+
+.icon-js:before { content: '\e800'; } /* '' */
+.icon-php:before { content: '\e801'; } /* '' */
+.icon-mysql:before { content: '\e802'; } /* '' */
+.icon-html5:before { content: '\f13b'; } /* '' */
+.icon-css3:before { content: '\f13c'; } /* '' */
