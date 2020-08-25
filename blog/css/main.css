@@ -12,15 +12,6 @@ section {
     margin-bottom: 5vh;
     margin-left: auto;
     margin-right: auto;
-    box-sizing: border-box;
-    border: 5px outset #90EE02;
-    border-radius: 10px;
-    color: black;
-    background-color: white;
-    background-image: url(../gfx/wood-texture.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
 }
 
 header {
@@ -29,26 +20,28 @@ header {
     margin-top: 5vh;
     margin-left: auto;
     margin-right: auto;
-    box-sizing: border-box;
-    border: 1px solid red;
     font-size: 4vw;
 }
 
 nav {
     height: 10vh;
-    box-sizing: border-box;
-    border: 1px solid blue;
     font-size: 2vw;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 2.5px solid #90EE02;
 }
 
-.posts {
-    box-sizing: border-box;
-    border: 1px solid green;
+nav span {
+    font-size: 3vw;
+    display: inline-block;
+}
+
+nav a {
+    margin: 0 25px;
+    display: inline-block;
 }
 
 article {
-    box-sizing: border-box;
-    border: 1px solid yellow;
     width: 80%;
     height: 100px;
     margin: 12.5px auto;
@@ -59,14 +52,29 @@ p {
     margin-bottom: 10px;
 }
 
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* p a:visited {
+    color: #272727;
+} */
+
 span {
     font-size: 1.5vw;
 }
 
+hr {
+    width: 80%;
+    border: 1px solid #90EE02;
+}
+
 footer {
     height: 10vh;
-    box-sizing: border-box;
-    border: 1px solid purple;
     line-height: 10vh;
     text-align: center;
     font-size: 1.5vw;

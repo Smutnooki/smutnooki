@@ -6,11 +6,15 @@
     }
 
     nav {
+        background-color: black;
         display: flex;
         width: 100vw;
         height: 10vh;
         flex-wrap: wrap;
         align-items: baseline;
+        position: sticky;
+        top: 0;
+        left: 0;
     }
 
     nav img {
