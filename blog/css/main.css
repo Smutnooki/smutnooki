@@ -1,26 +1,25 @@
 body {
-    background-image: url(../gfx/background.jpg);
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: auto;
-    color: white;
+    color: #ffffff;
 }
 
 section {
     background-color: transparent;
-    width: 75vw;
     margin-bottom: 5vh;
     margin-left: auto;
     margin-right: auto;
+    width: 75vw;
 }
 
 header {
+    font-size: 4vw;
     height: 15vh;
-    width: 75vw;
     margin-top: 5vh;
     margin-left: auto;
     margin-right: auto;
-    font-size: 4vw;
+    width: 75vw;
 }
 
 nav {
@@ -53,16 +52,12 @@ p {
 }
 
 a {
-    color: white;
+    color: #ffffff;
 }
 
 a:hover {
     text-decoration: none;
 }
-
-/* p a:visited {
-    color: #272727;
-} */
 
 span {
     font-size: 1.5vw;
@@ -78,4 +73,24 @@ footer {
     line-height: 10vh;
     text-align: center;
     font-size: 1.5vw;
+}
+
+.post {
+    margin: 25px auto;
+    width: 80%;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.post p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.data {
+    float: right;
+    font-size: 15px !important;
 }
