@@ -16,34 +16,34 @@ section {
 header {
     font-size: 4vw;
     height: 15vh;
-    margin-top: 5vh;
     margin-left: auto;
+    margin-top: 5vh;
     margin-right: auto;
     width: 75vw;
 }
 
 nav {
-    height: 10vh;
-    font-size: 2vw;
-    padding: 0 10px;
-    border-radius: 10px;
     border: 2.5px solid #90EE02;
+    border-radius: 10px;
+    font-size: 2vw;
+    height: 10vh;
+    padding: 0 10px;
 }
 
 nav span {
-    font-size: 3vw;
     display: inline-block;
+    font-size: 3vw;
 }
 
 nav a {
-    margin: 0 25px;
     display: inline-block;
+    margin: 0 25px;
 }
 
 article {
-    width: 80%;
     height: 100px;
     margin: 12.5px auto;
+    width: 80%;
 }
 
 p {
@@ -64,15 +64,15 @@ span {
 }
 
 hr {
-    width: 80%;
     border: 1px solid #90EE02;
+    width: 80%;
 }
 
 footer {
+    font-size: 1.5vw;
     height: 10vh;
     line-height: 10vh;
     text-align: center;
-    font-size: 1.5vw;
 }
 
 .post {

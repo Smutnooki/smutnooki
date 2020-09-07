@@ -6,39 +6,39 @@
     }
 
     nav {
+        align-items: baseline;
         background-color: black;
         display: flex;
-        width: 100vw;
-        height: 10vh;
         flex-wrap: wrap;
-        align-items: baseline;
+        height: 10vh;
+        left: 0;
         position: sticky;
         top: 0;
-        left: 0;
+        width: 100vw;
     }
 
     nav img {
-        order: 1;
-        max-width: 17.5%;
-        max-height: auto;
-        margin-top: auto;
         margin-bottom: auto;
         margin-left: 2.5%;
+        margin-top: auto;
+        max-height: auto;
+        order: 1;
+        max-width: 17.5%;
     }
 
     nav .menu {
+        height: 10vh;
         margin: auto 0;
         order: 2;
-        height: 10vh;
-        width: 80%;
         position: static;
+        width: 80%;
     }
 
     .menu a {
-        margin: auto 2.5%;
         font-size: 4.5vw;
-        width: 20%;
         height: 75%;
+        margin: auto 2.5%;
+        width: 20%;
     }
 
     footer {
@@ -48,15 +48,15 @@
     /* Home */
 
     #home {
-        width: 90vw;
         height: 80vh;
         margin: 0 auto;
+        width: 90vw;
     }
 
     #home .top {
+        font-size: 4vw;
         height: 10vh;
         line-height: 10vh;
-        font-size: 4vw;
     }
 
     #home .top span {
@@ -69,23 +69,24 @@
     }
 
     #home .bot {
+        font-size: 4.25vw;
         height: 10vh;
         line-height: 3vh;
-        font-size: 4.25vw;
+
     }
 
     /* About */
 
     #about {
-        width: 90vw;
-        margin: 0 auto;
         height: 180vh;
+        margin: 0 auto;
+        width: 90vw;
     }
 
     #about .me {
+        flex-wrap: wrap;
         height: 80vh;
         margin: 4.5vh 0;
-        flex-wrap: wrap;
     }
 
     #about .me .img {
@@ -111,8 +112,8 @@
     }
 
     #about .all_skills div {
-        width: 80%;
         margin-top: 25px;
+        width: 80%;
     }
 
     #about .all_skills div #logo {
@@ -130,8 +131,8 @@
     /* Portfolio */
 
     #projects {
-        width: 100vw;
         margin: auto 0;
+        width: 100vw;
     }
 
     #projects p {
@@ -139,27 +140,27 @@
     }
 
     #projects .all div {
-        width: 75%;
         margin: 25px auto;
+        width: 75%;
     }
 
     /* Kontakt */
 
     #kontakt {
-        width: 90vw;
         margin: 0 auto;
+        width: 90vw;
     }
 
     #kontakt section {
         flex-wrap: wrap;
-        width: 100%;
         padding: 5% 0;
+        width: 100%;
     }
 
     #kontakt section div {
-        width: 75%;
         height: auto;
         margin: 25px 0;
+        width: 75%;
     }
 
     #kontakt .form {
@@ -188,35 +189,35 @@
     }
 
     nav {
-        display: flex;
-        width: 100vw;
-        height: 10vh;
-        flex-wrap: wrap;
         align-items: baseline;
+        display: flex;
+        flex-wrap: wrap;
+        height: 10vh;
+        width: 100vw;
     }
 
     nav img {
-        order: 1;
-        max-width: 17.5%;
-        max-height: auto;
-        margin-top: auto;
         margin-bottom: auto;
         margin-left: 2.5%;
+        margin-top: auto;
+        max-height: auto;
+        max-width: 17.5%;
+        order: 1;
     }
 
     nav .menu {
+        height: 10vh;
         margin: auto 0;
         order: 2;
-        height: 10vh;
-        width: 80%;
         position: static;
+        width: 80%;
     }
 
     .menu a {
-        margin: auto 2.5%;
         font-size: 4.5vw;
-        width: 20%;
         height: 75%;
+        margin: auto 2.5%;
+        width: 20%;
     }
 
     footer {
@@ -226,15 +227,15 @@
     /* Home */
 
     #home {
-        width: 90vw;
         height: 80vh;
         margin: 0 auto;
+        width: 90vw;
     }
 
     #home .top {
+        font-size: 4vw;
         height: 10vh;
         line-height: 10vh;
-        font-size: 4vw;
     }
 
     #home .top span {
@@ -247,23 +248,23 @@
     }
 
     #home .bot {
+        font-size: 4.25vw;
         height: 10vh;
         line-height: 3vh;
-        font-size: 4.25vw;
     }
 
     /* About */
 
     #about {
-        width: 90vw;
-        margin: 0 auto;
         height: 180vh;
+        margin: 0 auto;
+        width: 90vw;
     }
 
     #about .me {
+        flex-wrap: wrap;
         height: 80vh;
         margin: 4.5vh 0;
-        flex-wrap: wrap;
     }
 
     #about .me .img {
@@ -293,8 +294,8 @@
     }
 
     #about .all_skills div {
-        width: 80%;
         margin-top: 25px;
+        width: 80%;
     }
 
     #about .all_skills div #logo {
@@ -316,8 +317,8 @@
     /* Portfolio */
 
     #projects {
-        width: 100vw;
         margin: auto 0;
+        width: 100vw;
     }
 
     #projects p {
@@ -325,27 +326,27 @@
     }
 
     #projects .all div {
-        width: 40%;
         margin: 25px auto;
+        width: 40%;
     }
 
     /* Kontakt */
 
     #kontakt {
-        width: 90vw;
         margin: 0 auto;
+        width: 90vw;
     }
 
     #kontakt section {
         flex-wrap: wrap;
-        width: 100%;
         padding: 5% 0;
+        width: 100%;
     }
 
     #kontakt section div {
-        width: 75%;
         height: auto;
         margin: 25px 0;
+        width: 75%;
     }
 
     #kontakt .form {
