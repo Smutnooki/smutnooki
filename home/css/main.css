@@ -195,7 +195,7 @@ footer {
     align-items: center;
     background-color: #272727;
     border: 0.25px solid #747474;
-    border-radius: 10px;
+    border-radius: 100px;
     box-sizing: border-box;
     box-shadow: 0px 0px 0px 2.5px #272727;
     color: #ffffff;
@@ -204,7 +204,7 @@ footer {
     justify-items: center;
     margin-bottom: auto;
     margin-top: auto;
-    padding-left: 10.5px;
+    padding-left: 12px;
     width: 20%;
 }
 
