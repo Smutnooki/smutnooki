@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wbrew swojej naturze</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/images.js"></script>
+</head>
+<body style="background-image:url(../gfx/background.jpg);" onload="gallery()">
+    <header>Wbrew swojej naturze</header>
+    <section>
+        <nav>
+            <span>Menu:</span>
+            <a href="../index.html">Strona główna</a>
+            <a href="../links/index.html">Linki</a>
+        </nav>
+        <div class="post">
+            <h3>Wyświetlanie zdjęć</h3>
+            <p>
+            Ten post przedstawia działającą galerię zdjęć wyświetlanych na blogu. <br><br>
+            </p>
+            <div style="clear:both;"></div>
+            <div class="gallery">
+                <button class="arrow" id="left" onclick="prev_photo()"><</button>
+                <div class="img" id="image"></div>
+                <button class="arrow" id="right" onclick="next_photo()">></button>
+            </div>
+            <p class="data">Dodano: 26.08.20</p>
+        </div>
+        <div style="clear:both;"></div>
+        <footer> &copy; Smutnooki 2020</footer>
+    </section>
+    <script src="../js/images.js"></script>
+</body>
+</html>

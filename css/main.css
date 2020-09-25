@@ -81,7 +81,7 @@ header span:before, header span:after {
     padding-left: 25px;
     position: absolute;
     top: 0;
-    width: 100%:
+    width: 100%;
 }
 
 header span:before {
@@ -266,7 +266,7 @@ footer {
     height: 10vh;
     line-height: 10vh;
     text-align: center;
-    width: 100%:
+    width: 100%;
 }
 
 .li_2, .li_7 {

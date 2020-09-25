@@ -1,5 +1,6 @@
 body {
-    background-position: center;
+    background-attachment: fixed;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: auto;
     color: #ffffff;
@@ -23,8 +24,6 @@ header {
 }
 
 nav {
-    border: 2.5px solid #90EE02;
-    border-radius: 10px;
     font-size: 2vw;
     height: 10vh;
     padding: 0 10px;
@@ -85,9 +84,66 @@ h3 {
     text-align: center;
 }
 
+.links a {
+    display: block;
+    font-size: 2vw;
+    margin: 50px 25px;
+}
+
 .post p {
     font-size: 20px;
-    text-align: justify;
+    margin: 25px auto;
+    max-width: 700px;
+    text-indent: 25px;
+}
+
+.gallery {
+    align-items: center;
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 650px;
+}
+
+.gallery .arrow {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    font-size: 25px;
+    height: 50px;
+    line-height: 50px;
+    pointer-events: auto;
+    text-align: center;
+    transition-duration: 1s;
+    width: 50px;
+}
+
+.gallery .arrow:hover {
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    transform: scale(0.75);
+    transition-duration: 1s;
+}
+
+.gallery {
+    pointer-events: none;
+    transition-duration: 2.5s;
+}
+
+.gallery img { 
+    border-radius: 25px;
+    height: 350px;
+    pointer-events: auto;
+    transition-duration: 2.5s;
+    max-width: 500px;
+}
+
+.gallery:hover {
+    transform: scale(1.5);
+    transition-duration: 2.5s;
 }
 
 .data {
